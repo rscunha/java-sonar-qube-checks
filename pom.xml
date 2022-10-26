@@ -106,7 +106,7 @@
         <printFailingErrors>true</printFailingErrors>
         <linkXRef>false</linkXRef>
         <rulesets>
-          <ruleset>${pom.basedir}/pmd-rulesets.xml</ruleset>
+          <ruleset>${project.basedir}/pmd-rulesets.xml</ruleset>
         </rulesets>
       </configuration> 
     </plugin>
